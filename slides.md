@@ -1,17 +1,20 @@
 layout: true
-background-image: url(photos/k8s-sticker.jpg)
+background-image: url(photos/Tiger-Composite.jpg)
 background-size: cover
 background-position: 50% 25%
-image-credit: Photo "k8s Sticker" shared by Joe Beda under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 class: middle, center
+background-image: url(photos/k8s-sticker.jpg)
+background-position: 50% 25%
+background-size: cover
+image-credit: Photo "k8s Sticker" shared by Joe Beda under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/4.0/)
 
 # Kubernetes 101
 
 .cblock[
-Joe Beda<br>
-CTO, Heptio
+Christopher LILJENSTOLPE<br>
+CTO, Solutions - [Tigera](https://tigera.io)
 ]
 
 .image-credit[
@@ -21,8 +24,8 @@ CTO, Heptio
 ---
 
 class: column-slide
-background-image: url(photos/record.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+background-image: url(photos/Tiger-Composite.jpg)
+background-size: cover
 
 .column-container[.left-column[
 # Recap
@@ -35,15 +38,11 @@ image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turnt
 ]
 ]
 
-.image-credit[
-{{image-credit}}
-]
-
 ---
 
 class: column-slide
-background-image: url(photos/record.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+background-image: url(photos/Tiger-Composite.jpg)
+background-size: cover
 
 .column-container[.left-column[
 # Recap
@@ -68,14 +67,10 @@ cgroups + namespaces = "lightweight virtualization"
 ]
 ]
 
-.image-credit[
-{{image-credit}}
-]
-
 ---
 class: column-slide
-background-image: url(photos/record.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+background-image: url(photos/Tiger-Composite.jpg)
+background-size: cover
 
 .column-container[.left-column[
 # Recap
@@ -91,14 +86,10 @@ Containers == Docker?
 ]
 ]
 
-.image-credit[
-{{image-credit}}
-]
-
 ---
 class: column-slide
-background-image: url(photos/record.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+background-image: url(photos/Tiger-Composite.jpg)
+background-size: cover
 
 .column-container[.left-column[
 # Recap
@@ -110,22 +101,16 @@ Users benefits:
 
 1. Packaging, deployment and reuse
 2. Efficiency and overcommit
-3. Security*
+3. Security
 
 This list is in order
 
-\* Big caveats here currently
 ]
 ]
 
-.image-credit[
-{{image-credit}}
-]
 
 ---
 class: column-slide
-background-image: url(photos/record.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # Recap
@@ -150,14 +135,9 @@ Dev &rarr; Production
 ]
 ]
 
-.image-credit[
-{{image-credit}}
-]
 
 ---
 class: column-slide
-background-image: url(photos/record.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # Recap
@@ -175,13 +155,8 @@ Not what I'm talking about today.
 ]
 ]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/ship-wheel.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # Kubernetes
@@ -205,13 +180,8 @@ Key component in *logical infrastructure*
 
 ]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/ship-wheel.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # Kubernetes
@@ -227,13 +197,9 @@ Google launches 2 billion containers per week.
 Part of a larger set of tools that make up the internal Google platform.
 ]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/ship-wheel.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
 
 .column-container[.left-column[
 # Kubernetes
@@ -244,7 +210,7 @@ https://github.com/kubernetes/kubernetes
 
 *Very* active open source project
 
-23k stars, 1400+ contributors
+38k+ stars, 1700+ contributors
 
 Apache 2 licensed
 
@@ -253,18 +219,12 @@ Written in Go
 Hosted by the Cloud Native Computing Foundation (CNCF)
 ]]
 
-.image-credit[
-{{image-credit}}
-]
-
 ???
 
 stats with git shortlog -sn --no-merges | wc
 
 ---
 class: column-slide
-background-image: url(photos/ship-wheel.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # Kubernetes
@@ -278,14 +238,9 @@ Enable operations specialization. Cluster Ops vs. App Ops
 Reduce cost to run many things in production.  Enables new ways of building applications.
 ]]
 
-.image-credit[
-{{image-credit}}
-]
 
 ---
 class: column-slide
-background-image: url(photos/space-needle.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/seattlemunicipalarchives/6175308389 "Space Needle under construction, 1961") shared by [Seattle Municipal Archives](https://flickr.com/people/seattlemunicipalarchives) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # Design Principles
@@ -299,16 +254,11 @@ image-credit: [flickr photo](https://flickr.com/photos/seattlemunicipalarchives/
 * network-centric
 * labels > hierarchy
 * cattle > pets
-* open > closed
+* open > close
 ]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/core-memory.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
 
 .column-container[.left-column[
 # Core Concepts
@@ -319,13 +269,8 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 </object>
 ]]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/core-memory.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
 
 .column-container[.left-column[
 # Core Concepts
@@ -336,13 +281,8 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 </object>
 ]]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/core-memory.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
 
 .column-container[.left-column[
 # Core Concepts
@@ -353,13 +293,8 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 </object>
 ]]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/core-memory.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
 
 .column-container[.left-column[
 # Core Concepts
@@ -370,14 +305,8 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 </object>
 ]]]
 
-.image-credit[
-{{image-credit}}
-]
-
 ---
 class: column-slide
-background-image: url(photos/core-memory.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
 
 .column-container[.left-column[
 # Core Concepts
@@ -388,14 +317,8 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 </object>
 ]]]
 
-.image-credit[
-{{image-credit}}
-]
-
 ---
 class: column-slide
-background-image: url(photos/core-memory.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
 
 .column-container[.left-column[
 # Core Concepts
@@ -406,13 +329,8 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 </object>
 ]]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/core-memory.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
 
 .column-container[.left-column[
 # Core Concepts
@@ -423,14 +341,8 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 </object>
 ]]]
 
-.image-credit[
-{{image-credit}}
-]
-
 ---
 class: column-slide
-background-image: url(photos/road.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # So much more!
@@ -450,14 +362,8 @@ image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We'r
   * Run something on every node (or subset)
 ]]
 
-.image-credit[
-{{image-credit}}
-]
-
 ---
 class: column-slide
-background-image: url(photos/road.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # So much more!
@@ -478,13 +384,8 @@ image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We'r
   * Network ingress policy
 ]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
-background-image: url(photos/road.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
 # Ecosystem
@@ -504,22 +405,29 @@ image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We'r
 * **Extended Network Policy**
 ]]
 
-.image-credit[
-{{image-credit}}
-]
 ---
 class: middle, left
+background-image: url(photos/k8s-sticker.jpg)
+background-position: 50% 25%
+background-size: cover
+image-credit: Photo "k8s Sticker" shared by Joe Beda under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/4.0/)
+
 # Thank you!
 
 .cblock[
-Joe Beda<br>
-[@jbeda](https://twitter.com/jbeda)<br>
-https://www.heptio.com<br>
+Christopher LILJENSTOLPE<br>
+[@liljenstolpe](https://twitter.com/liljenstolpe) |
+[@liljenstolpe](https://github.com/liljenstolpe) | [cdl@tigera.io](mailto:cdl@tigera.io)<br>
+https://www.tigera.io<br>
 ]
 
 .ccblock[
 [![Creative Commons License](img/cc-by.png)](http://creativecommons.org/licenses/by/4.0/)<br>
-[Kubernetes 101](https://github.com/jbeda/k8s-slides) by Joe Beda is licensed under a [Creative Commons Attribution 4.0 International License](href="http://creativecommons.org/licenses/by/4.0/).
+This presentation is a [fork](https://github.com/liljenstolpe/slides-kubernetes-101) by
+[@liljenstolpe](https://github.com/liljenstolpe) of [Kubernetes
+101](https://github.com/jbeda/k8s-slides) by Joe Beda, and maintains
+his [Creative Commons Attribution 4.0 International
+License](href="http://creativecommons.org/licenses/by/4.0/) license.
 ]
 
 .image-credit[
